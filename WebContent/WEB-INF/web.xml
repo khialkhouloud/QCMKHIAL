@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>QcmServelet</servlet-name>
+    <servlet-class>Com.Servelets.QcmServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QcmServelet</servlet-name>
+    <url-pattern>/QCM</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginServelet</servlet-name>
+    <servlet-class>Com.Servelets.LoginServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServelet</servlet-name>
+    <url-pattern>/LOGIN</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>PageServelet</servlet-name>
+    <servlet-class>Com.Servelets.PageServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PageServelet</servlet-name>
+    <url-pattern>/PAGE</url-pattern>
+  </servlet-mapping>
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <include-prelude> /WEB-INF/taglibs.jsp</include-prelude>
+    </jsp-property-group>
+  </jsp-config>
+</web-app>
