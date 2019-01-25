@@ -2,3 +2,4 @@ read me :
 le projet est un qcm aléatoire a chque connexion les questions s'affiche différament 
 toutes les questions et les reponses sont dans une base de données mysql
 il y'a le volet qcm qui contient le qcm et le volet note pour visualiser les notes du qcm
+j'ai exporter la base de données "projet.sql" qui contient l'architecture de la base de données et les données.
